@@ -1,11 +1,12 @@
 <body class="body">
   <div class="background">
     <mat-toolbar class="toolbar">
-      <a class="conteudo-toolbar">HOME</a>
-      <a class="conteudo-toolbar">SOBRE</a>
-      <a class="conteudo-toolbar">PROJETOS</a>
-      <a class="conteudo-toolbar">CONTATO</a>
+      <a routerLink="/home" class="conteudo-toolbar">HOME</a>
+      <a routerLink="/sobre" class="conteudo-toolbar">SOBRE</a>
+      <a routerLink="/contato" class="conteudo-toolbar">CONTATO</a>
     </mat-toolbar>
+
+    <router-outlet></router-outlet>
   </div>
 </body>
 

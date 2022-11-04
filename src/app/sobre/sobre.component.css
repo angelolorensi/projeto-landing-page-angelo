@@ -1,0 +1,22 @@
+.conteudo-titulo{
+  color: #eff8ff;
+
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo-texto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3vh;
+}
+
+.conteudo-texto-paragrafo{
+  color: #eff8ff;
+  font-weight: 400;
+  text-align: center;
+}
