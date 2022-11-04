@@ -1,0 +1,21 @@
+.background{
+  background-image: url('src\assets\img\background4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+}
+
+.toolbar{
+  background-color: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.conteudo-toolbar{
+  color: white;
+}
