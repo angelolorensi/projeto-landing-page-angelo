@@ -7,4 +7,4 @@ app.get('/*', (req, res) => {
   res.sendFile(__dirname + '/dist/projeto-landing-page-angelo/index.html')
 });
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 8080);
